@@ -1,9 +1,7 @@
-import App from "../App.jsx";
-
 function Productos() {
   return (
     <>
-      <p>Esto es productos</p>;
+      <h1>Productos nuestros</h1>
     </>
   );
 }
