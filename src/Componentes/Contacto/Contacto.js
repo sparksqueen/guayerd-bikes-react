@@ -4,8 +4,9 @@ import "./contacto.css";
 
 const Contacto = () => {
   return (
+      
     <div className='container'>
-        <h1>Contacto</h1>
+        <h2 className='pt-4'>Contacto</h2>
        <div className="contacto row justify-content-center py-4 px-4">
            
              <form class="row g-3">

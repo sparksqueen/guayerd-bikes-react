@@ -8,6 +8,7 @@ import Productos from "./Componentes/Barra Nav/Productos";
 import Contacto from "./Componentes/Contacto/Contacto";
 import Footer from "./Componentes/footer/footer";
 import Producto from "./Componentes/Producto/Producto";
+import Banner from "./Componentes/Banner/Banner";
 /*import Maps from "./Componentes/Maps/Maps";*/
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/Productos" element={<Productos />}></Route>
           <Route exact path="/Contactos" element={<Contactos />}></Route>
         </Routes>
+        <Banner/>
         <Producto/>
         <Contacto/>
         <Footer/>

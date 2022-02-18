@@ -6,7 +6,7 @@ const Footer=() =>{
     return(
 
         <div>
-            <footer className="text-white py-4 bg-dark">
+            <footer className="text-white py-4 bg-dark ">
                 <div className="container">
                     <nav className="row  d-flex align-items-center justify-content: space-between">
                         <Link to="/" className="col-12 col-md-3 d-flex aling-items-center ">
