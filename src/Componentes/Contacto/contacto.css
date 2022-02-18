@@ -1,3 +1,7 @@
-.contacto{
-    width: 50%;
+.contacto {
+  width: 50%;
+  box-sizing: border-box;
+  width: 90%;
+  margin: auto;
+  padding: 40px;
 }
