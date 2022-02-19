@@ -1,5 +1,8 @@
 import "./App.css";
 import React from "react";
+
+import Subs from "./Componentes/subscriptions/subscription";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./Componentes/Barra Nav/Nav";
 import Home from "./Componentes/Barra Nav/Home";
@@ -15,6 +18,7 @@ import Producto from "./Componentes/Producto/Producto";
 function App() {
   return (
     <>
+      <Subs />
       <BrowserRouter>
         <Nav />
         <Routes>
