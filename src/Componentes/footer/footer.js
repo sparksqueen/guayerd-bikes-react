@@ -9,13 +9,13 @@ const Footer=() =>{
             <footer className="text-white py-4 bg-dark ">
                 <div className="container">
                     <nav className="row  d-flex align-items-center justify-content: space-between">
-                        <Link to="/" className="col-12 col-md-3 d-flex aling-items-center ">
+                        <Link to="#" className="col-12 col-md-3 d-flex aling-items-center ">
                              <img src="./LogoIcono.png" width="50"  alt="logo"/>
                         </Link>
                         <ul className="col-12 col-md-4 list-unstyled">
-                            <li> Sobre Nosotros</li>
-                            <li  className=" "> Garantias</li>
-                            <li  className=""> Politica de Privacidad</li>
+                            <li><Link to={"#"} className="text-decoration-none text-light">Sobre Nosotros</Link></li>
+                            <li> <Link to={"#"} className="text-decoration-none text-light"> Garantias</Link></li>
+                            <li> <Link to={"#"} className="text-decoration-none text-light"> Politica de Privacidad</Link></li>
                         </ul>
                         <ul className="col-12 col-md-4 ">
                             <i className="bi bi-facebook px-3"></i>

@@ -9,7 +9,7 @@ import Contacto from "./Componentes/Contacto/Contacto";
 import Footer from "./Componentes/footer/footer";
 import Producto from "./Componentes/Producto/Producto";
 import Banner from "./Componentes/Banner/Banner";
-/*import Maps from "./Componentes/Maps/Maps";*/
+import Catalogo from "./Componentes/Catalogo/Catalogo";
 
 
 
@@ -23,6 +23,7 @@ function App() {
           <Route exact path="/Productos" element={<Productos />}></Route>
           <Route exact path="/Contactos" element={<Contactos />}></Route>
         </Routes>
+        <Catalogo/>
         <Banner/>
         <Producto/>
         <Contacto/>
