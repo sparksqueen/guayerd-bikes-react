@@ -1,15 +1,15 @@
 import react from "react";
 import { Link } from "react-router-dom";
 
-
-
 function Nav() {
+  let Usuario = JSON.parse(window.localStorage.getItem("datasub"));
   return (
     <>
-
       <div>
-      <nav>
-              <ul className="nav bg-black   justify-content-center">
+        {!Usuario ? <> </> : <p>Hola {Usuario.nombre}</p>}
+
+        <nav>
+        <ul className="nav bg-black   justify-content-center">
                 <li className="nav-item">
                   <Link class="nav-link" to={"./Home"}> Home </Link>
                 </li>
