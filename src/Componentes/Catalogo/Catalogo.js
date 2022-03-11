@@ -4,7 +4,7 @@ import { Navbar } from 'react-bootstrap';
 
 const Catalogo=() =>{
     return(
-   
+      <>
 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
     <Link className="navbar-brand" to={"#"} >Catálogo</Link>
@@ -29,6 +29,7 @@ const Catalogo=() =>{
     </div>
   </div>
 </nav>
+</>
    ) 
 }
 
